@@ -1,18 +1,16 @@
-// Get a reference to the button element
+
 const button = document.getElementById('button');
 
-// Get a reference to the next page element
 const nextPage = document.querySelector('.next-page');
 
 button.addEventListener('click', () => {
-    console.log('Button clicked!'); // Debugging
-    // Redirect to the next page (replace 'next-page.html' with the actual URL)
-    window.location.href = 'main.html';
+    console.log('Button clicked!'); 
+    window.location.href = 'main';
 
-    // Hide the entry page and show the next page with a fade effect
     document.querySelector('.enter').style.opacity = '30';
 
-    // Use a timeout to ensure the transition starts after the entry page is hidden
+    document.querySelector('.enter').style.opacity = '1';
+
     setTimeout(() => {
         nextPage.style.display = 'flex';
         nextPage.style.opacity = '30';
