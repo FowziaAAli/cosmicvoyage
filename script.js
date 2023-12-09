@@ -7,9 +7,9 @@ button.addEventListener('click', () => {
     console.log('Button clicked!'); 
     window.location.href = 'main';
 
-    document.querySelector('.enter').style.opacity = '30';
+    document.querySelector('.index').style.opacity = '30';
 
-    document.querySelector('.enter').style.opacity = '1';
+    document.querySelector('.index').style.opacity = '1';
 
     setTimeout(() => {
         nextPage.style.display = 'flex';
