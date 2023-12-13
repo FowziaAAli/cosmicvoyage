@@ -89,20 +89,23 @@ header{
           margin: 3px 2px;
           
           &.ie{
-            background-image: url(https://win98icons.alexmeub.com/icons/png/gps-1.png);
+            background-image: url(Assets/icons/gps-2.png);
           }    
           &.outlook{
-            background-image: url(https://64.media.tumblr.com/79518a39d9a47e3d6f238007ce56bb3e/bfcbdeb99be67f57-5c/s1280x1920/22c74403fd467868e5fd8eff463f2aa1bf8fd252.png);
+            background-image: url(Assets/icons/internet_connection_wiz-4.png);
+            background-size: 25%; 
           } 
           &.desktop{
-      background-image: url(https://win98icons.alexmeub.com/icons/png/channels-5.png);
+      background-image: url(Assets/icons/channels-3.png);
+      
           }
           &.channels{
-            background-image: url(https://64.media.tumblr.com/e490acf30892e686a035aea13ffb3b39/b24600eabe01aad3-db/s540x810/42c90a6d918bd9fe2a215cfa15a7a8f6c011ac46.gifv);
+            background-image: url(Assets/icons/netmeeting-2.png);
+            background-size: 30%;  
           }
           &.clock{
-            background-image: url("Assets/icons/timewindows.gif");
-            background-size: 50px;  
+            background-image: url(Assets/icons/timewindows.gif);
+            background-size: 60px;  
           }
         }
         .toolbar-right{
@@ -184,23 +187,23 @@ header{
    
 
     &.cosmic{
-      background-image: url(https://win98icons.alexmeub.com/icons/png/shut_down_with_computer-0.png);
+      background-image: url(Assets/icons/computer-5.png);
       background-size: 60px;  
       cursor: pointer;
       
     }
     &.connect{
-      background-image: url(https://win98icons.alexmeub.com/icons/png/network_internet_pcs_installer-2.png);
+      background-image: url(Assets/icons/network_internet_pcs_installer-2.png);
       background-size: 60px;
       cursor: pointer;
     }
     &.comment{
-      background-image: url(https://win98icons.alexmeub.com/icons/png/mailbox_world-2.png);
+      background-image: url(Assets/icons/mailbox_world-2.png);
       background-size: 60px;
       cursor: pointer;
     }
     &.resume{
-      background-image: url(https://win98icons.alexmeub.com/icons/png/joystick-4.png);
+      background-image: url(Assets/icons/joystick-4.png);
       background-size: 60px;
       cursor: pointer;
     }
