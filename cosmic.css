@@ -92,29 +92,30 @@ section{
         border: none;
         margin-top: 3px;
         margin: 3px 2px;
+       
         
         &.ie{
           background-image: url(Assets/icons/gps-2.png);
-          cursor: url(Assets/icons/handclicker.png),auto;
+
         }    
         &.outlook{
           background-image: url(Assets/icons/internet_connection_wiz-4.png);
           background-size: 25%; 
-          cursor: url(Assets/icons/handclicker.png),auto;
+ 
         } 
         &.desktop{
     background-image: url(Assets/icons/channels-3.png);
-    cursor: url(Assets/icons/handclicker.png),auto;
+
         }
         &.channels{
           background-image: url(Assets/icons/netmeeting-2.png);
           background-size: 30%;  
-          cursor: url(Assets/icons/handclicker.png),auto;
+        
         }
         &.clock{
           background-image: url(Assets/icons/timewindows.gif);
           background-size: 60px;  
-          cursor: url(Assets/icons/handclicker.png),auto;
+        
         }
       }
       .toolbar-right{
@@ -147,7 +148,7 @@ height: 550px;
 }
 
 .title-bar {
-cursor: url(handclick.png), pointer;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,22 +199,22 @@ cursor: url(handclick.png), pointer;
   &.cosmic{
     background-image: url(Assets/icons/computer-5.png);
     background-size: 60px;  
-    cursor: url(Assets/icons/handclicker.png),auto;
+    cursor: url(astroglove.png),auto;
   }
   &.connect{
     background-image: url(Assets/icons/network_internet_pcs_installer-2.png);
     background-size: 60px;
-    cursor: url(Assets/icons/handclicker.png),auto;
+    cursor: url(astroglove.png),auto;
   }
   &.comment{
     background-image: url(Assets/icons/mailbox_world-2.png);
     background-size: 60px;
-    cursor: url(Assets/icons/handclicker.png),auto;
+    cursor: url(astroglove.png),auto;
   }
   &.simulator{
     background-image: url(Assets/icons/joystick-4.png);
     background-size: 60px;
-    cursor: url(Assets/icons/handclicker.png),auto;
+    cursor: url(astroglove.png),auto;
   }
 }
 
