@@ -274,8 +274,8 @@ transform: translate(-50%, -50%);
 
 .corner-images {
     position: absolute;
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 350px; 
+    height: 350px; 
 }
 
 .top-left {
@@ -285,17 +285,17 @@ transform: translate(-50%, -50%);
 
 .top-right {
     top: 0;
-    left: 2;
+    left: 0;
 }
 
 .bottom-left {
     bottom: 0;
-    left: 30;
+    left: 0;
 }
 
 .bottom-right {
     bottom: 0;
-    right: 6;
+    right: 0;
 }
       
 /* Main */
@@ -427,21 +427,21 @@ section:nth-child(6){
 
 /* Asteroid Belt */
 section:nth-child(7){
-background-image:  url("Assets/images/shootingstars50.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars-exporslowert.gif"),url("Assets/images/shootingstars50slowerexport.gif");
-background-position: top center left, top center, center, center;
-background-repeat: no-repeat, no-repeat, repeat, no-repeat, no-repeat,no-repeat,no-repeat, no-repeat; 
-background-size: auto,auto,auto,auto,200px,300px,100px,300px ;
+background-image:  url("Assets/images/shootingstars50.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars-exporslowert.gif"),url("Assets/images/shootingstars50slowerexport.gif"),url(Assets/finalbelt.gif);
+background-position: top center left, top center, center, center, center center;
+background-repeat: no-repeat, no-repeat, repeat, no-repeat, no-repeat; 
+background-size: auto,auto,auto,auto,,100%;
 position: relative;
-
 
 
 .window {
   margin-left: 45%;
   margin-top:15%;
-  height: 200px;
+  height: 250px;
   background-image: none;
 
 }
+
 }
 
 /* Jupiter */
