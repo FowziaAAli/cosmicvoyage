@@ -211,7 +211,7 @@ cursor: url(handclick.png), pointer;
     cursor: url(Assets/icons/handclicker.png),auto;
   }
   &.simulator{
-    background-image: url(/Users/ubahhassan/Documents/GitHub/cosmicvoyage/joystick-4.png);
+    background-image: url(Assets/icons/joystick-4.png);
     background-size: 60px;
     cursor: url(Assets/icons/handclicker.png),auto;
   }
@@ -337,7 +337,7 @@ section:nth-child(2){
 
   .window {
  
-      margin-left: 110%;
+      margin-left: 60%;
       background-image: url("Assets/images/suninfo.png");
       background-position: center 50px;
       background-size: 200px;
