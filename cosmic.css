@@ -468,8 +468,8 @@ section:nth-child(8){
  
 
     background-repeat: no-repeat;
-    background-position:0% center, 50%;
-    background-size: auto, 119% ;
+    background-position: 50%;
+    background-size: 50%, 119% ;
    
    .window {
       margin-left: 65%;
