@@ -18,6 +18,7 @@ body, html {
     background-position:  center center;
     background-size:110%, auto,auto,50%;
     background-attachment:  fixed;
+
   
 }
 button {
@@ -30,6 +31,7 @@ button {
     display: flex;
     align-items: center;
     margin-bottom: 80px; 
+    cursor: url(astroglove.png),auto;
 }
 
 button:hover {
