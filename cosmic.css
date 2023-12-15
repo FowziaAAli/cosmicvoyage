@@ -428,15 +428,15 @@ section:nth-child(6){
 /* Asteroid Belt */
 section:nth-child(7){
 background-image:  url("Assets/images/shootingstars50.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars-exporslowert.gif"),url("Assets/images/shootingstars50slowerexport.gif"),url(Assets/finalbelt.gif);
-background-position: top center left, top center, center, center, center center;
+background-position: top center left, top center, center, center,center;
 background-repeat: no-repeat, no-repeat, repeat, no-repeat, no-repeat; 
 background-size: auto,auto,auto,auto,100%;
 position: relative;
 
 
 .window {
-  margin-left: 45%;
-  margin-top:15%;
+  margin-left: 0%;
+  margin-top:10%;
   height: 250px;
   background-image: none;
 
@@ -453,7 +453,7 @@ section:nth-child(8){
   background-position:  0% center;
   background-size: 50%;
   .window {
-      margin-left: 75%;
+      margin-left: 65%;
       background-image: url("Assets/images/jupiterinfo.png");
       background-position: center 50px;
       background-size: 200px;
@@ -507,9 +507,9 @@ section:nth-child(11){
 
       background-image: url("Assets/images/layer2purplestar.gif"), url(Assets/neptunerealfinal.gif);
 
-      background-repeat: no-repeat;
+      background-repeat: no-repeat, no-repeat;
       background-position: 0% center;
-      background-size: auto, 50%;
+      background-size: contain, 50%;
       .window {
           margin-left: 60%;
 
