@@ -353,7 +353,7 @@ section:nth-child(3){
 
   background-repeat: no-repeat;
   background-position:  0% center;
-  background-size: 40% ,40%;
+  background-size: 40% ,35%;
   .window {
       margin-left: 35%;
       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/440px-Mercury_in_true_color.jpg");
@@ -376,7 +376,7 @@ section:nth-child(4){
  
   background-repeat: no-repeat;
   background-position:  0% center;
-  background-size:  35%;
+  background-size:  34%;
  
   .window {
       margin-left: 40%;
@@ -395,7 +395,7 @@ section:nth-child(5){
 
   background-repeat: no-repeat;
   background-position:  0% center;
-  background-size:  35%;
+  background-size:  33%;
 
   .window {
       margin-left: 40%;
@@ -414,7 +414,7 @@ section:nth-child(6){
   background-image:  url("Assets/images/layer 3 green star.gif"), url("Assets/images/mars800ms.gif");
   background-repeat: no-repeat;
   background-position: 0% center;
-  background-size:  35%;
+  background-size:  29%;
   .window {
       margin-left: 35%;
  
@@ -489,7 +489,7 @@ section:nth-child(10){
   background-attachment: scroll, scroll;
   background-repeat: no-repeat;
   background-position: 0% center;
-  background-size: 70%;
+  background-size: 69%;
 
   .window {
       margin-left: 70%;
@@ -510,7 +510,7 @@ section:nth-child(11){
 
       background-repeat: no-repeat, no-repeat;
       background-position: 0% center;
-      background-size: contain, 50%;
+      background-size: contain, 42%;
       .window {
           margin-left: 60%;
 
@@ -529,11 +529,11 @@ background-image:  url("Assets/images/layer2purplestar.gif"), url("Assets/images
 
   background-repeat: no-repeat;
   background-position: 0% center;
-  background-size: 40% ,15%;
+  background-size: 25% ,10%;
   margin-left: 10%;
  
   .window {
-      margin-left: 10%;
+      margin-left: 15%;
 
   background-image: url("Assets/images/pluto.png");
   background-position: center 50px;
