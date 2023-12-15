@@ -430,7 +430,7 @@ section:nth-child(7){
 background-image:  url("Assets/images/shootingstars50.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars-exporslowert.gif"),url("Assets/images/shootingstars50slowerexport.gif"),url(Assets/finalbelt.gif);
 background-position: top center left, top center, center, center, center center;
 background-repeat: no-repeat, no-repeat, repeat, no-repeat, no-repeat; 
-background-size: auto,auto,auto,auto,,100%;
+background-size: auto,auto,auto,auto,100%;
 position: relative;
 
 
