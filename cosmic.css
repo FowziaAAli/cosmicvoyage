@@ -50,7 +50,7 @@ section{
       bottom: 0;
       left: 0;
       border-top: 2px solid #fff;
-      cursor: url(Assets/icons/handclicker.png),auto;
+      cursor: url(astroglove.png),auto;
       .toolbar-start-menu{
         float: left;
         
@@ -64,6 +64,7 @@ section{
           border: 2px solid #7c7c7c;
           border-top-color: #fff;
           border-left-color: #fff;
+          cursor: url(astroglove.png),auto;
           
           &:hover{
             background-color: darken(#c0c0c0, 10%);
@@ -96,26 +97,28 @@ section{
         
         &.ie{
           background-image: url(Assets/icons/gps-2.png);
+          cursor: url(astroglove.png),auto;
 
         }    
         &.outlook{
           background-image: url(Assets/icons/internet_connection_wiz-4.png);
           background-size: 25%; 
- 
+          cursor: url(astroglove.png),auto;
         } 
         &.desktop{
     background-image: url(Assets/icons/channels-3.png);
-
+    cursor: url(astroglove.png),auto;
         }
         &.channels{
           background-image: url(Assets/icons/netmeeting-2.png);
           background-size: 30%;  
+          cursor: url(astroglove.png),auto;
         
         }
         &.clock{
           background-image: url(Assets/icons/timewindows.gif);
           background-size: 60px;  
-        
+          cursor: url(astroglove.png),auto;
         }
       }
       .toolbar-right{
@@ -139,6 +142,7 @@ width: 400px;
 height: 550px;
   margin-left: auto;
   transition: all 0.3s ease;
+  
 }
 
 
@@ -154,12 +158,13 @@ height: 550px;
   align-items: center;
   padding: 8px;
   color: #fff;
+  cursor: url(astroglove.png),auto;
 }
 
 .title-bar-controls button {
   border: none;
   color: #fff;
-  cursor: url(handclick.png), pointer;
+  cursor: url(astroglove.png),auto;
   margin-left: 8px;
   padding: 5px;
 }
@@ -168,6 +173,7 @@ height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: url(astroglove.png),auto;
 }
 
 /* window text */
@@ -379,7 +385,7 @@ section:nth-child(4){
   background-size:  34%;
  
   .window {
-      margin-left: 40%;
+      margin-left: 35%;
       background-image: url("Assets/images/venusinfo.jpeg");
       background-position: center 50px;
       background-size: 200px;
@@ -395,7 +401,7 @@ section:nth-child(5){
 
   background-repeat: no-repeat;
   background-position:  0% center;
-  background-size:  33%;
+  background-size:  35%;
 
   .window {
       margin-left: 40%;
@@ -416,7 +422,7 @@ section:nth-child(6){
   background-position: 0% center;
   background-size:  29%;
   .window {
-      margin-left: 35%;
+      margin-left: 30%;
  
       background-image: url("Assets/images/marspic.png");
       background-position: center 50px;
@@ -489,10 +495,10 @@ section:nth-child(10){
   background-attachment: scroll, scroll;
   background-repeat: no-repeat;
   background-position: 0% center;
-  background-size: 69%;
+  background-size: 73%;
 
   .window {
-      margin-left: 70%;
+      margin-left: 75%;
 
   background-image: url("    https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg/440px-Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg");
   background-position: center 50px;
@@ -510,9 +516,9 @@ section:nth-child(11){
 
       background-repeat: no-repeat, no-repeat;
       background-position: 0% center;
-      background-size: contain, 42%;
+      background-size: contain, 48%;
       .window {
-          margin-left: 60%;
+          margin-left: 55%;
 
       background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/440px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg");
       background-position: center 50px;
@@ -530,10 +536,10 @@ background-image:  url("Assets/images/layer2purplestar.gif"), url("Assets/images
   background-repeat: no-repeat;
   background-position: 0% center;
   background-size: 25% ,10%;
-  margin-left: 10%;
+ 
  
   .window {
-      margin-left: 15%;
+      margin-left: 10%;
 
   background-image: url("Assets/images/pluto.png");
   background-position: center 50px;
@@ -547,4 +553,5 @@ background-image:  url("Assets/images/layer2purplestar.gif"), url("Assets/images
 /* End */
 section:nth-child(13){
           align-items: center;
+    
            }
