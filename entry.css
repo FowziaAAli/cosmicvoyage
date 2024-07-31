@@ -1,10 +1,10 @@
-r
+
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100%;
-    
+
 }
 
 .entry-page {
@@ -13,13 +13,12 @@ body, html {
     align-items: center;
     justify-content:flex-end;
     height: 100%;
-    background-image: url(Assets/images/entry1.gif), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("Assets/bgpixelgif.gif");
-   background-repeat:no-repeat, repeat,repeat,no-repeat,repeat,repeat,repeat, repeat;
+    background-image: url("enterpage mockupglitch3-export.gif"), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("https://i.imgur.com/SHZe50s.gif");
+    background-repeat:no-repeat, repeat,repeat,no-repeat,repeat,repeat,repeat, repeat;
     background-position: center center;
-    background-size:110%, auto,auto,50%;
-    background-attachment:  fixed;
+    background-size:100%, auto,auto,50%;
+    background-attachment:  scroll,fixed;
 
-  
 }
 button {
     padding: 5px 10px;
@@ -31,7 +30,6 @@ button {
     display: flex;
     align-items: center;
     margin-bottom: 80px; 
-    cursor: url(astroglove.png),auto;
 }
 
 button:hover {
