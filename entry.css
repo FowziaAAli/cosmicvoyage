@@ -13,7 +13,7 @@ body, html {
     align-items: center;
     justify-content:flex-end;
     height: 100%;
-    background-image: url("enterpage mockupglitch3-export.gif"), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("https://i.imgur.com/SHZe50s.gif");
+    background-image: url("Assets/images/finalsheet.gif"), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("https://i.imgur.com/SHZe50s.gif");
     background-repeat:no-repeat, repeat,repeat,no-repeat,repeat,repeat,repeat, repeat;
     background-position: center center;
     background-size:100%, auto,auto,50%;
