@@ -13,10 +13,11 @@ body, html {
     align-items: center;
     justify-content:flex-end;
     height: 100%;
-    background-image: url("Assets/images/finalsheet.gif"), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("https://i.imgur.com/SHZe50s.gif");
-    background-position: center center;
-    background-size:100%, auto,auto,50%;
-    background-attachment:  scroll,fixed;
+    background-image: url(Assets/images/entry1.gif), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("Assets/bgpixelgif.gif");
+background-repeat:no-repeat, repeat,repeat,no-repeat,repeat,repeat,repeat, repeat;
+    background-position:  center center;
+    background-size:110%, auto,auto,50%;
+    background-attachment:  fixed;
 
 }
 button {
@@ -25,10 +26,11 @@ button {
     background-color: #bdbdbd;
     box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
     border: none;
-    cursor: url(astroglove.png),auto;
+    cursor: pointer;
     display: flex;
     align-items: center;
     margin-bottom: 80px; 
+    cursor: url("astroglove.png"),auto;
 }
 
 button:hover {
