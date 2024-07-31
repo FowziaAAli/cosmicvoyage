@@ -12,7 +12,7 @@ body{
   font-family: 'Pixelify Sans', cursive;
   display: flex;
   background-color: #020116;
-  background-image:  url("layer2purplestar.gif"), url("Assets/images/shootingstars50slowerexport.gif"), url("Assets/images/NebulaTransparent.png"), url("Assets/images/layer 3 green star.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars.gif"), url("https://i.imgur.com/SHZe50s.gif");
+  background-image:  url("layer2purplestar.gif"), url("Assets/images/shootingstars50slowerexport.gif"), url("Assets/images/NebulaTransparent.png"), url("Assets/images/layer 3 green star.gif"), url("Assets/images/shootingstars.gif"),  url("Assets/images/yellowstars.gif"), url("Assets/bgpixelgif.gif");
   background-repeat:  repeat,no-repeat,no-repeat,repeat,no-repeat, repeat,repeat;
   background-position: center center, center center,center center, center center,center center;
   background-size:  auto,auto, 55%;
