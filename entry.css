@@ -1,4 +1,4 @@
-
+r
 body, html {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body, html {
 .entry-page {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center center;
     justify-content:flex-end;
     height: 100%;
     background-image: url(Assets/images/entry1.gif), url("layer2purplestar.gif"), url("/Users/ubahhassan/Desktop/Space WEB/shootingstars50slowerexport.gif"), url("final nebula.png"), url("layer 3 green star.gif"), url("shootingstars.gif"),  url("yellowstars.gif"), url("Assets/bgpixelgif.gif");
